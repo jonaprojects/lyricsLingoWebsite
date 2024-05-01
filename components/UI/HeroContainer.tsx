@@ -1,7 +1,7 @@
 import React from "react";
 
 interface IProps {
-  children: React.ReactNode | string | React.ReactNode[];
+  children?: React.ReactNode | string | React.ReactNode[];
   className?: string;
 }
 export default function HeroContainer(props: IProps) {
