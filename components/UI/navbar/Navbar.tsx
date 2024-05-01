@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import starIcon from "../../../public/star.svg";
+import starIcon from "@/public/star.svg";
 import HighlightedText from "../HighlightedText";
 
 export default function Navbar() {
